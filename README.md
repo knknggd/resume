@@ -1,2 +1,2 @@
-# moriatry.github.io
-my github page
+
+my simple resume
