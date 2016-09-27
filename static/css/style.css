@@ -187,7 +187,7 @@ progress::-moz-progress-value {
     width: 120px;
 }
 
-.portrait {
+/*.portrait {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
@@ -198,7 +198,7 @@ progress::-moz-progress-value {
     border:5px solid #607d8b;
     width:160px;
     height:160px;
-}
+}*/
 
 
 .container {
