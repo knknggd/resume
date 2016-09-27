@@ -1,3 +1,4 @@
+/*
 // First, checks if it isn't implemented yet.
 if (!String.prototype.format) {
   String.prototype.format = function() {
@@ -46,22 +47,22 @@ jQuery(document).ready(function($) {
     });
 
     $('.info-header').hover(function() {
-        /* Stuff to do when the mouse enters the element */
+        /!* Stuff to do when the mouse enters the element *!/
         $(this).children('.unit-remove').css('visibility', 'visible');
         $(this).children('.item-add').css('visibility', 'visible');
 
     }, function() {
-        /* Stuff to do when the mouse leaves the element */
+        /!* Stuff to do when the mouse leaves the element *!/
         $(this).children('.unit-remove').css('visibility', 'hidden');
         $(this).children('.item-add').css('visibility', 'hidden');
     });
 
     $('.info-unit ul li').hover(function() {
-        /* Stuff to do when the mouse enters the element */
+        /!* Stuff to do when the mouse enters the element *!/
         $(this).children('.item-remove').css('visibility', 'visible');
 
     }, function() {
-        /* Stuff to do when the mouse leaves the element */
+        /!* Stuff to do when the mouse leaves the element *!/
         $(this).children('.item-remove').css('visibility', 'hidden');
     });
 
@@ -87,4 +88,8 @@ jQuery(document).ready(function($) {
     });
     // $("*").removeAttr('contenteditable');
 
-});
+});*/
+
+$(document).ready(function($){
+    $("*").removeAttr('contenteditable');
+})
